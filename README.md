@@ -1,10 +1,10 @@
-# Alvaindes API
+# Alvaindes TypeScript SDK
 
 <p align="center">
   <img src="./assets/alvaindes.png" alt="Alvaindes Logo" width="140">
 </p>
 
-<h1 align="center">Alvaindes</h1>
+<h1 align="center">Alvaindes SDK</h1>
 
 <p align="center">
  Official TypeScript SDK for integrating Alvaindes brokerage infrastructure API.
