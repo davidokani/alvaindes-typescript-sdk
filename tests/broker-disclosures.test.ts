@@ -6,7 +6,7 @@ const disclosureResponse = {
   userId: "user_123",
   brokerConnectionId: "connection_123",
   employmentStatus: "EMPLOYED",
-  employmentSector: "TECHNOLOGY",
+  employmentSector: "computers_and_it",
   isControlPerson: false,
   isAffiliatedExchangeOrFinra: false,
   isPoliticallyExposed: false,
@@ -17,7 +17,7 @@ const disclosureResponse = {
 
 const disclosureParams = {
   employmentStatus: "EMPLOYED",
-  employmentSector: "TECHNOLOGY",
+  employmentSector: "computers_and_it",
   isControlPerson: false,
   isAffiliatedExchangeOrFinra: false,
   isPoliticallyExposed: false,

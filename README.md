@@ -214,7 +214,7 @@ const disclosure = await client.brokerDisclosures.create(
   "YOUR_BROKER_CONNECTION_ID",
   {
     employmentStatus: "EMPLOYED",
-    employmentSector: "TECHNOLOGY",
+    employmentSector: "computers_and_it",
     isControlPerson: false,
     isAffiliatedExchangeOrFinra: false,
     isPoliticallyExposed: false,
