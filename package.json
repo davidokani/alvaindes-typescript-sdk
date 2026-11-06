@@ -1,0 +1,57 @@
+{
+  "name": "alvaindes-typescript-sdk",
+  "version": "0.1.0",
+  "description": "Official TypeScript SDK for the Alvaindes brokerage infrastructure API",
+  "license": "MIT",
+  "author": "Alvaindes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidokani/alvaindes-typescript-sdk.git"
+  },
+  "homepage": "https://alvaindes.com",
+  "bugs": {
+    "url": "https://github.com/davidokani/alvaindes-typescript-sdk/issues"
+  },
+  "keywords": [
+    "alvaindes",
+    "brokerage",
+    "brokerage-api",
+    "fintech",
+    "investment",
+    "sdk",
+    "typescript"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0"
+  }
+}
