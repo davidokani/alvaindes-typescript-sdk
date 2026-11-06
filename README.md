@@ -1,8 +1,20 @@
-# Alvaindes TypeScript SDK
+# Alvaindes API
 
-The official TypeScript SDK for integrating applications with the Alvaindes brokerage infrastructure API.
+<p align="center">
+  <img src="./assets/alvaindes.png" alt="Alvaindes Logo" width="140">
+</p>
 
-Use the SDK to work with users, investment accounts, KYC, assets, funding sources, portfolios, holdings, orders, deposits, withdrawals, transactions, broker agreements, broker disclosures, and market data.
+<h1 align="center">Alvaindes</h1>
+
+<p align="center">
+ Official TypeScript SDK for integrating Alvaindes brokerage infrastructure API.
+</p>
+
+<p align="center">
+  Use the SDK to work with users, investment accounts, KYC, assets, funding sources, portfolios, holdings, orders, deposits, withdrawals, transactions, broker agreements, broker disclosures, and market data.
+</p>
+
+---
 
 ## Requirements
 
