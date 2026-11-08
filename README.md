@@ -118,7 +118,7 @@ const fundingSource = await client.fundingSources.create(user.id, account.id, {
   ownerName: "Jane Doe",
   bankAccountNumber: "1234567890",
   bankAccountType: "CHECKING",
-  routiUSDumber: "123456789",
+  routingNumber: "123456789",
   currency: "USD",
 });
 ```
